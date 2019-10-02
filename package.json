@@ -1,0 +1,35 @@
+{
+  "name": "teambuilderengine",
+  "version": "1.0.0",
+  "description": "backend for GreatTeamToWork project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon -r dotenv/config server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjwast/TeamBuilderEngine.git"
+  },
+  "author": "Carlos Aguirre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjwast/TeamBuilderEngine/issues"
+  },
+  "homepage": "https://github.com/cjwast/TeamBuilderEngine#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "connect-mongo": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.3",
+    "nodemon": "^1.19.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0"
+  }
+}
